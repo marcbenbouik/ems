@@ -9,6 +9,7 @@ import ListePatients from './pages/patientListe';
 import Top from './component/top/Top';
 import DossierMedical from './pages/dossierMedical/DossierMedical';
 import NouveauPatient from './pages/nouveuPatient';
+import Pointeuse from './pages/pointeuse';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,7 +23,7 @@ root.render(
           <Route path='/patient_list' element={<ListePatients />} />
           <Route path='/patient_list/:id' element={<DossierMedical />} />
           <Route path='/patient_list/new_patient' element={<NouveauPatient />} />
-          <Route path='/pointeuse' />
+          <Route path='/pointeuse' element={<Pointeuse />} />
           <Route path='/tarification' />
           <Route path='/convalescence' />
           <Route path='/tenues' />

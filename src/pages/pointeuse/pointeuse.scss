@@ -1,0 +1,79 @@
+$bleu-clair: #70C6EB;
+$bleu-fonce: #004E87;
+
+.pointeuse {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    .horodatage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        .buttonDiv {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+
+            .button {
+                width: 200px;
+                height: 100px;
+                border-radius: 15px;
+                font-size: 22px;
+            }
+            .blue{
+                background-color: $bleu-clair;
+                color: $bleu-fonce;
+            }
+            .red{
+                background-color: rgb(207, 44, 44);
+                color: $bleu-clair;
+            }
+        }
+
+        .horaireDiv {
+            width: 410px;
+            height: 100%;
+            background-color: $bleu-fonce;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            box-sizing: border-box;
+
+            p {
+                color: $bleu-clair;
+            }
+        }
+    }
+
+    .hoursSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        .hours {
+            background-color: $bleu-clair;
+            width: 300px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+            color: $bleu-fonce;
+            font-size: 22px;
+        }
+    }
+}
