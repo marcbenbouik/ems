@@ -1,0 +1,51 @@
+$bleu-clair: #70C6EB;
+$bleu-fonce: #004E87;
+$fond: #02161f;
+
+.footer {
+    background-color: $bleu-clair;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    height: 75px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+
+    .footerTitle {
+        color: $bleu-fonce;
+        font-size: 70px;
+    }
+
+    .picture_background {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: $fond;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .logo {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .footer {
+        height: 50px;
+
+        .footerTitle {
+            font-size: 45px;
+        }
+
+        .picture_background {
+            width: 45px;
+            height: 45px;
+        }
+    }
+}

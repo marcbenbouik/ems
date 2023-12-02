@@ -1,0 +1,50 @@
+$bleu-clair: #70C6EB;
+$bleu-fonce: #004E87;
+$fond: #02161f;
+
+.searchContainer {
+    margin-top: 15vh;
+    max-width: 920px;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .searchInput {
+        width: 100%;
+        height: 100%;
+        background-color: $bleu-fonce;
+        color: $bleu-clair;
+        border: none;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 40px;
+
+        &::placeholder {
+            color: $bleu-clair;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    i {
+        position: absolute;
+        left: 20px;
+        color: $fond;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .searchContainer {
+        height: 60px;
+        max-width: 775px;
+
+        .searchInput {
+            font-size: 30px;
+        }
+    }
+}

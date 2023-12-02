@@ -1,0 +1,13 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    background-color: #02161f;
+    height: 100vh;
+    .footer{
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+    }
+}

@@ -1,0 +1,27 @@
+.link {
+    text-decoration: none;
+
+    .background {
+        width: 250px;
+        height: 200px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h3 {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .link {
+
+        .background {
+            height: 150px;
+            width: 200px;
+        }
+    }
+}

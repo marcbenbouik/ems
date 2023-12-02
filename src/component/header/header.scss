@@ -1,0 +1,64 @@
+$bleu-clair: #70C6EB;
+$bleu-fonce: #004E87;
+$fond: #02161f;
+
+.header {
+    background-color: $bleu-clair;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    height: 75px;
+    width: calc(100vw - 40px);
+
+    .menu {
+        margin-left: 15px;
+    }
+
+    .identity {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        column-gap: 20px;
+
+        .profil_pic {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: solid 1px;
+            background-color: $fond;
+        }
+
+        .name {
+            color: $bleu-fonce;
+            font-size: 60px;
+        }
+    }
+
+    .home {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .header {
+        height: 50px;
+
+        .identity {
+            .profil_pic {
+                width: 45px;
+                height: 45px;
+                border-radius: 50%;
+                border: solid 1px;
+                background-color: $fond;
+            }
+
+            .name {
+                color: $bleu-fonce;
+                font-size: 40px;
+            }
+        }
+    }
+}

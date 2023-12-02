@@ -1,0 +1,35 @@
+$bleu-clair: #70C6EB;
+$bleu-fonce: #004e87;
+
+.aside {
+    background-color: rgba(5, 79, 138, 0.85);
+    opacity: 1;
+    width: 25vw;
+    height: 80vh;
+    position: absolute;
+    left: 20px;
+    top: 95px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    .container {
+        opacity: 1;
+        text-decoration: none;
+    }
+
+    .sideTitle {
+        color: $bleu-clair;
+        font-size: 3vh;
+        text-align: center;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .aside {
+        top: 70px;
+    }
+}

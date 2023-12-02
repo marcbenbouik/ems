@@ -1,0 +1,23 @@
+$bleu-clair: #70C6EB;
+$bleu-fonce: #004E87;
+
+
+.annotationContainer {
+    width: 250px;
+    height: 120px;
+    background-color: $bleu-clair;
+    color: $bleu-fonce;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1920px) {
+    .annotationContainer {
+        // width: 200px;
+        height: 100px;
+        font-size: 30px;
+    }
+}

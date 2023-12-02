@@ -1,0 +1,23 @@
+$bleu-clair: #70C6EB;
+$bleu-fonce: #004E87;
+
+
+.interButton {
+    width: 350px;
+    height: 120px;
+    background-color: $bleu-fonce;
+    color: $bleu-clair;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1920px) {
+    .interButton {
+        // width: 300px;
+        height: 100px;
+        font-size: 30px;
+    }
+}

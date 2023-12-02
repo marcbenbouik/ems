@@ -1,0 +1,37 @@
+$bleu-clair: #70C6EB;
+$bleu-fonce: #004E87;
+$fond: #02161f;
+
+
+.sexeBackground {
+    background-color: $fond;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    font-size: 60px;
+    padding-top: 10vh;
+
+    .homme {
+        background-color: $bleu-clair;
+        color: $bleu-fonce;
+        width: 35vw;
+        border-radius: 20px;
+        height: 65vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .femme {
+        background-color: $bleu-fonce;
+        color: $bleu-clair;
+        width: 35vw;
+        border-radius: 20px;
+        height: 65vh;
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+}

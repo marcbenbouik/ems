@@ -1,0 +1,36 @@
+.dossierContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 10vh;
+    max-width: 1030px;
+
+    .detailsContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+        gap: 20px;
+        margin-top: 10vh;
+        width: 100%;
+
+        .interactionContainer {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            max-width: 620px;
+        }
+    }
+}
+
+// @media screen and (max-width: 1920px) {
+//     .dossierContainer {
+//         .detailsContainer {
+//             .interactionContainer {
+//                 // max-width: 640px;
+//             }
+//         }
+//     }
+// }

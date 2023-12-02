@@ -1,0 +1,16 @@
+$bleu-clair: #70C6EB;
+$bleu-fonce: #004E87;
+
+.dossierContenair {
+    width: 100%;
+    height: 200px;
+    background-color: $bleu-clair;
+    color: $bleu-fonce;
+    border-radius: 20px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    box-sizing: border-box
+}

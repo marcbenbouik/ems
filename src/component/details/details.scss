@@ -1,0 +1,24 @@
+$bleu-clair: #70C6EB;
+$bleu-fonce: #004E87;
+
+.detailContainer {
+    background-color: $bleu-fonce;
+    width: 350px;
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+
+    .detailElement {
+        font-size: 25px;
+        color: $bleu-clair;
+        line-height: 1.5;
+    }
+}
+
+// @media screen and (max-width: 1920px) {
+//     .detailContainer {
+//         padding: 20px;
+//     }
+// }

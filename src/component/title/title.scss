@@ -1,0 +1,16 @@
+$bleu-clair: #70C6EB;
+$bleu-fonce: #004E87;
+
+
+.title {
+    background-color: $bleu-fonce;
+    border-radius: 20px;
+    height: 75px;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $bleu-clair;
+    font-size: 40px;
+}
